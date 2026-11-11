@@ -1,0 +1,26 @@
+
+> hospital-appointment-api@1.0.0 test:crud
+> tsx src/test.ts
+
+
+── Patients ──────────────────────────
+Created: Test Patient 8
+Found: Test Patient
+Updated phone: 8888888888
+Search results: 1
+
+── Doctors ───────────────────────────
+Created: Dr. Test 8
+Found: Dr. Test
+General Medicine doctors: 1
+
+── Appointments ──────────────────────
+Booked: 11 for Test Patient
+Full fetch: Test Patient with Dr. Test
+Doctor schedule: 2 appointment(s)
+Status updated to: completed
+Cancelled appointments: 1
+Doctor delete guard: Cannot delete a doctor with appointments. Cancel or delete the appointments first.
+
+── Cleanup ───────────────────────────
+Test data cleaned up (patient deletion cascaded to the remaining appointment).
